@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    /* background: linear-gradient(#141e30, #243b55); */
+    /* background-image:url(images/img6.jpg) ; */
+    background-color: #03e9f4;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: teal;
+    /* background: rgba(0,0,0,.5); */
+    /* background-image: url(images/img4.jpg); */
+    
+    background-attachment: fixed;
+    background-size: 1000px 600px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  .centerpage1 h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  .border .user-box, .user-box1 , .user-box2, .user-box3 {
+    position: relative;
+  }
+  
+   .border .user-box input, .user-box1 input {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+   .border .user-box label, .user-box1 label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.border .genderbox input{
+    padding: 12px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    background: transparent;
+}
+.border .genderbox label, .bloodgroup label {
+    /*pointer-events: none;*/
+    padding: 10px 0;
+    color: white;
+    transition: .5s;
+  }
+  .bloodgroup select{
+    background-color:cadetblue;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .bloodgroup option{
+    color: white;
+  }
+  .border .user-box input:focus ~ label,
+  .border .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  .border .user-box1 input:focus ~ label,
+  .border .user-box1 input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color:white;
+    font-size: 12px;
+  }
+  .border form .centerpage2 input {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color:linear-gradient(#141e30, #243b55);
+    background-color: transparent;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  .border .centerpage2 input:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+  .border .centerpage2{
+    position: absolute;
+    left: 45%;
+  }
+  .signup button{
+    margin-left: 400px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px black;
+  }
+  .signup .login{
+    margin-top: 15px;
+    text-align: center;
+  }
